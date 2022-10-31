@@ -1,5 +1,6 @@
 import React from "react";
 import { ActivityLogo } from "./assets";
+import { trendingData } from "./common/constants";
 import Card from "./components/card";
 
 function App() {
@@ -16,11 +17,9 @@ function App() {
         </p>
       </div>
       <section className="m-20 flex flex-wrap">
-        {Array(5)
-          .fill(null)
-          .map((item) => (
-            <Card />
-          ))}
+        {trendingData.map((data, key) => (
+          <Card key={key} {...{ ...data }} />
+        ))}
       </section>
     </main>
   );
