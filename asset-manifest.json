@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Ajal333/trending-assets/static/css/main.e0249690.css",
+    "main.js": "/Ajal333/trending-assets/static/js/main.bfc4aeb4.js",
+    "static/js/787.2cd2dae1.chunk.js": "/Ajal333/trending-assets/static/js/787.2cd2dae1.chunk.js",
+    "index.html": "/Ajal333/trending-assets/index.html",
+    "main.e0249690.css.map": "/Ajal333/trending-assets/static/css/main.e0249690.css.map",
+    "main.bfc4aeb4.js.map": "/Ajal333/trending-assets/static/js/main.bfc4aeb4.js.map",
+    "787.2cd2dae1.chunk.js.map": "/Ajal333/trending-assets/static/js/787.2cd2dae1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e0249690.css",
+    "static/js/main.bfc4aeb4.js"
+  ]
+}
