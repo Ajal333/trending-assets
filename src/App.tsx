@@ -16,7 +16,7 @@ function App() {
           Trending assets
         </p>
       </div>
-      <section className="m-20 flex flex-wrap">
+      <section className="my-20 flex flex-wrap justify-center">
         {trendingData.map((data, key) => (
           <Card key={key} {...{ ...data }} />
         ))}
