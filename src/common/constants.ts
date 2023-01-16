@@ -6,7 +6,7 @@ export const trendingData = [
     tvl: "$60,000",
     popularPairs: ["btc", "shib", "eth"],
     logo: "btc",
-    color: "#EAB3001a",
+    color: "to-[#EAB3001a]",
   },
   {
     name: "Solana (SOL)",
@@ -15,7 +15,7 @@ export const trendingData = [
     tvl: "$60,000",
     popularPairs: ["busd", "sol", "shib"],
     logo: "sol",
-    color: "#DC1FFF1a",
+    color: "to-[#DC1FFF1a]",
   },
   {
     name: "Etherium (ETH)",
@@ -24,7 +24,7 @@ export const trendingData = [
     tvl: "$60,000",
     popularPairs: ["sol", "btc", "busd"],
     logo: "eth",
-    color: "#EDF0F41a",
+    color: "to-[#EDF0F41a]",
   },
   {
     name: "Binance (BUSD)",
@@ -33,7 +33,7 @@ export const trendingData = [
     tvl: "$60,000",
     popularPairs: ["sol", "eth", "btc"],
     logo: "busd",
-    color: "#EAB3001a",
+    color: "to-[#EAB3001a]",
   },
   {
     name: "Shiba Inu (SHIB)",
@@ -42,6 +42,6 @@ export const trendingData = [
     tvl: "$60,000",
     popularPairs: ["btc", "sol", "eth"],
     logo: "shib",
-    color: "#E42D041a",
+    color: "to-[#E42D041a]",
   },
 ];

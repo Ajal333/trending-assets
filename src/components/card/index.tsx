@@ -19,8 +19,6 @@ const Card = ({
   logo: string;
   color: string;
 }) => {
-  const bgStyle: string = `bg-gradient-to-b from-[#626A881a] to-[${color}] backdrop-blur-[50px]`;
-
   return (
     <div className="w-[290px] m-4 relative flex flex-col items-center justify-center h-[400px] bg-gradient-to-t from-[#626a881a] to-[#2e31491a] border-[#2e3149] border-[1px] backdrop-blur-[50px] rounded-[17px] before:absolute before:top-[-70px] before:content-['']  before:w-[120px] before:rounded-full before:m-[10px] before:border-b-[1px] before:border-[#2e3149]  before:h-[120px] before:bg-[#14172B] ">
       <p className="font-semibold text-[12px] mb-4 my-5 text-[#737BAE] opacity-[0.9]">
@@ -62,7 +60,7 @@ const Card = ({
       <p className="font-semibold text-[12px] text-[#737BAE] opacity-[0.9]">
         Popular pairs{" "}
       </p>
-      <LogoContainer logo={logo} color={bgStyle} />
+      <LogoContainer logo={logo} color={color} />
     </div>
   );
 };
